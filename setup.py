@@ -9,7 +9,7 @@ from setuptools import find_packages, setup, Command
 from setuptools.command.egg_info import egg_info
 
 
-PACKAGE_NAME = 'oscrypto'
+PACKAGE_NAME = 'oscrypto-py311-fix'
 PACKAGE_VERSION = '1.3.0'
 PACKAGE_ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -114,8 +114,8 @@ setup(
 
     url='https://github.com/wbond/oscrypto',
 
-    author='wbond',
-    author_email='will@wbond.net',
+    author='Edwin Onuonga',
+    author_email='ed@hazy.com',
 
     license='MIT',
 
