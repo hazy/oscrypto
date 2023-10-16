@@ -95,8 +95,6 @@ class CleanCommand(Command):
 
 
 readme = ''
-with codecs.open(os.path.join(PACKAGE_ROOT, 'readme.md'), 'r', 'utf-8') as f:
-    readme = f.read()
 
 
 setup(
